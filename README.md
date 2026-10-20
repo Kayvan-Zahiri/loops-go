@@ -1,6 +1,6 @@
 # loops-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/loops-so/loops-go.svg)](https://pkg.go.dev/github.com/loops-so/loops-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/loops-so/loops-go.svg)](https://pkg.go.dev/github.com/loops-so/loops-go) [![test](https://github.com/loops-so/loops-go/actions/workflows/test.yml/badge.svg)](https://github.com/loops-so/loops-go/actions/workflows/test.yml) [![vuln](https://github.com/loops-so/loops-go/actions/workflows/vuln.yml/badge.svg)](https://github.com/loops-so/loops-go/actions/workflows/vuln.yml)
 
 Go SDK for the [Loops](https://loops.so) API.
 
@@ -68,6 +68,7 @@ client := loops.NewClient("YOUR_API_KEY",
 - Components — `GetComponent`, `ListComponents`, `CreateComponent`, `UpdateComponent`
 - Themes — `GetTheme`, `ListThemes`, `CreateTheme`, `UpdateTheme`
 - Uploads — `Upload`, `CreateUpload`, `CompleteUpload`
+- Workflow groups — `CreateWorkflowGroup`, `GetWorkflowGroup`, `UpdateWorkflowGroup`, `ListWorkflowGroups`
 - Workflows — `ListWorkflows`, `GetWorkflow`, `GetWorkflowNode`, `CreateWorkflow`, `UpdateWorkflow`, `DeleteWorkflow`, `ChangeWorkflowMailingList`, `CreateWorkflowNode`, `UpdateWorkflowNode`, `AddWorkflowBranch`, `RerouteNodeConnection`, `DeleteWorkflowNode`, `DeleteWorkflowNodeRecursive`, `GetWorkflowNodeMetrics`
 
 Full reference: [pkg.go.dev/github.com/loops-so/loops-go](https://pkg.go.dev/github.com/loops-so/loops-go).
